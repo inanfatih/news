@@ -5,15 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="./script.js" defer></script>
-    <style src="./style.css"></style>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    ​
     <title>Document</title>
   </head>
-
+  ​
   <body>
+    ​ ​
+    <div id="card" style="width: 50%;">
+      <div class="inputs">
+        <input id="search" type="search" placeholder="Search" /> <br />
+        <input id="category" type="text" placeholder="Category" /> <br />
+        <input id="country" type="text" placeholder="Country" /><br />
+        <button id="searchButton">Search</button>
+      </div>
+      <img
+        src="https://ichef.bbci.co.uk/news/1024/branded_news/112C0/production/_109063307_a685e578-6011-4c3e-ac80-9f242da714a3.jpg"
+        class="image"
+        with="200px"
+        height="300px"
+        alt="..."
+      />
 
-
-
-
-    
+      <div class="card-body">
+        <h5 class="card-title">News Title</h5>
+        <p class="search">Search</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li id="country" class="country">country</li>
+        <li id="source" class="source">source</li>
+        <li id="category" class="category">category</li>
+      </ul>
+      <div class="card-body"></div>
+    </div>
+    ​ ​ ​
   </body>
 </html>
